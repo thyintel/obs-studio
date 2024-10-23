@@ -173,7 +173,7 @@ static inline bool HasOptimizedBRCSupport(const mfxPlatform &platform, const mfx
 #if (MFX_VERSION_MAJOR >= 2 && MFX_VERSION_MINOR >= 12) || MFX_VERSION_MAJOR > 2
 	if ((version.Major >= 2 && version.Minor >= 12) || version.Major > 2)
 		if (rateControl == MFX_RATECONTROL_CBR &&
-		    (platform.CodeName >= MFX_PLATFORM_LUNARLAKE && platform.CodeName != MFX_PLATFORM_ALDERLAKE_N))
+		    (platform.CodeName >= MFX_PLATFORM_BATTLEMAGE && platform.CodeName != MFX_PLATFORM_ALDERLAKE_N))
 			return true;
 #endif
 	UNUSED_PARAMETER(platform);
