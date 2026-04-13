@@ -50,7 +50,7 @@ SOFTWARE
 #include <strsafe.h>
 
 OBS_DECLARE_MODULE()
-OBS_MODULE_USE_DEFAULT_LOCALE(PLUGIN_NAME, "en-US")
+OBS_MODULE_USE_DEFAULT_LOCALE("win-mediafoundation-capture", "en-US")
 
 extern void RegisterMediaFoundationSource();
 
